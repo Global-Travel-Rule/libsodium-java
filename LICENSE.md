@@ -45,7 +45,7 @@ means this document.
 1.9. "Licensable"
 means having the right to grant, to the maximum extent possible,
 whether at the time of the initial grant or subsequently, any and
-all of the rights conveyed by this License.
+all the rights conveyed by this License.
 
 1.10. "Modifications"
 means any of the following:
@@ -106,7 +106,7 @@ Contributions or its Contributor Version.
 2.2. Effective Date
 
 The licenses granted in Section 2.1 with respect to any Contribution
-become effective for each Contribution on the date the Contributor first
+become effective for each contribution to the date the Contributor first
 distributes such Contribution.
 
 2.3. Limitations on Grant Scope
@@ -326,8 +326,8 @@ cross-claims or counter-claims.
 
 ----------------
 
-This License represents the complete agreement concerning the subject
-matter hereof. If any provision of this License is held to be
+This License represents the complete agreement concerning the subject hereof. If any provision of this License is held
+to be
 unenforceable, such provision shall be reformed only to the extent
 necessary to make it enforceable. Any law or regulation which provides
 that the language of a contract shall be construed against the drafter
