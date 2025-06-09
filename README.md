@@ -1,7 +1,6 @@
 # Libsodium Java Bindings
 
-[![License](https://img.shields.io/badge/license-ISC-blue.svg)](LICENSE)
-[![Build Status](https://github.com/Global-Travel-Rule/libsodium-java/actions/workflows/build.yml/badge.svg)](https://github.com/Global-Travel-Rule/libsodium-java/actions)
+[![License](https://img.shields.io/badge/license-MPL-blue.svg)](LICENSE)
 
 Java bindings for the Libsodium cryptographic library, specifically designed to support Global Travel Rule compliance
 requirements.
@@ -28,11 +27,31 @@ requirements.
 
 ```xml
 
-<dependency>
-    <groupId>com.globaltravelrule.libsodium</groupId>
-    <artifactId>libsodium-java</artifactId>
-    <version>1.0.0</version>
-</dependency>
+<project>
+    <repositories>
+        <repository>
+            <id>global-travel-rule-github-public</id>
+            <name>Global Travel Rule GitHub Public Packages</name>
+            <url>https://maven.pkg.github.com/Global-Travel-Rule/libsodium-java</url>
+            <!-- public repository -->
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- globaltravelrule libsodium dependency -->
+        <dependency>
+            <groupId>com.globaltravelrule.libsodium</groupId>
+            <artifactId>libsodium-java</artifactId>
+            <version>{LATEST_VERSION}</version>
+        </dependency>
+    </dependencies>
+</project>
 ```
 
 #### Gradle
